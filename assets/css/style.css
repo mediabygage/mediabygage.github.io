@@ -57,11 +57,6 @@ a:hover {
   color: var(--pygments-two);
 }
 
-hr {
-  width: 100%;
-  border: 1px solid var(--pygments-two);
-}
-
 /*--------------*/
 /* Site Content */
 /*--------------*/
@@ -80,6 +75,8 @@ hr {
 .footer-container {
   max-width: 60rem;
   margin: 30px auto 30px auto;
+  white-space: nowrap;
+
 }
 
 .footer-info {
@@ -91,6 +88,12 @@ hr {
 
 .footer-link {
   color: var(--pygments-four);
+  text-decoration: none;
+}
+
+hr {
+  width: 100%;
+  border: 1px solid var(--pygments-two);
 }
 
 /*------------------*/
